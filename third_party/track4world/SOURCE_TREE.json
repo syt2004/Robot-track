@@ -1,0 +1,2020 @@
+{
+  "sha": "fbd59ffadf2de9fccba5ea017e13af239075fbe9",
+  "url": "https://api.github.com/repos/TencentARC/Track4World/git/trees/fbd59ffadf2de9fccba5ea017e13af239075fbe9",
+  "tree": [
+    {
+      "path": ".gitmodules",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a51643fdd1ba7fc8e2f25e95bdf7d8d2eaf7f89e",
+      "size": 119,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/a51643fdd1ba7fc8e2f25e95bdf7d8d2eaf7f89e"
+    },
+    {
+      "path": "LICENSE.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8fd3b9fcb7449d81ccce450e76a3063849d0e80",
+      "size": 42240,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/b8fd3b9fcb7449d81ccce450e76a3063849d0e80"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a0ebf22e4e6a205f6e55edc7b211a15707a40f0",
+      "size": 18032,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/9a0ebf22e4e6a205f6e55edc7b211a15707a40f0"
+    },
+    {
+      "path": "assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fab70d3f5b0deb4eac026e33833a6809b2668ff3",
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/trees/fab70d3f5b0deb4eac026e33833a6809b2668ff3"
+    },
+    {
+      "path": "assets/arxiv_Track4World.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18f25aa313d897b3d4f57f06a0065893d557325f",
+      "size": 80991254,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/18f25aa313d897b3d4f57f06a0065893d557325f"
+    },
+    {
+      "path": "assets/demo_cam.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b7570f84dd0fea8371fb7f7e899472a901906d0",
+      "size": 134,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/3b7570f84dd0fea8371fb7f7e899472a901906d0"
+    },
+    {
+      "path": "assets/demo_world.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1bfcb2f3beb6d84e02469190aee4d7b463b74361",
+      "size": 132,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/1bfcb2f3beb6d84e02469190aee4d7b463b74361"
+    },
+    {
+      "path": "assets/framework.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2def9481e4c7475c50665634c14340f246e0a56",
+      "size": 131,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/b2def9481e4c7475c50665634c14340f246e0a56"
+    },
+    {
+      "path": "assets/logo.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c8df551ef328c78fb95c089a1a592f98edfea73",
+      "size": 48911,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/3c8df551ef328c78fb95c089a1a592f98edfea73"
+    },
+    {
+      "path": "demo.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3e68d0514998020b142c38614abdec19b384e76",
+      "size": 42805,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/d3e68d0514998020b142c38614abdec19b384e76"
+    },
+    {
+      "path": "demo_data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "01e7cef49c2ac60905d08b61b4b69b7e28b4a9bb",
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/trees/01e7cef49c2ac60905d08b61b4b69b7e28b4a9bb"
+    },
+    {
+      "path": "demo_data/bear.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd7b755c61850d8d7585741bdd8fd226c73f1eaf",
+      "size": 133,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/fd7b755c61850d8d7585741bdd8fd226c73f1eaf"
+    },
+    {
+      "path": "demo_data/car-roundabout.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2783d16626378f701a3a9b93ad70eb9732e19180",
+      "size": 133,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/2783d16626378f701a3a9b93ad70eb9732e19180"
+    },
+    {
+      "path": "demo_data/cat.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b1d8aca22ac111ba49c3348eb3fe5352cab5642",
+      "size": 131,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/4b1d8aca22ac111ba49c3348eb3fe5352cab5642"
+    },
+    {
+      "path": "demo_data/drift-straight.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e90b1e2faf00643ea0a8f814f2c1c0d63b19a680",
+      "size": 133,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/e90b1e2faf00643ea0a8f814f2c1c0d63b19a680"
+    },
+    {
+      "path": "demo_data/human5.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc4f52ab16051ca345dacb45dc8f2597a15a5f50",
+      "size": 132,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/cc4f52ab16051ca345dacb45dc8f2597a15a5f50"
+    },
+    {
+      "path": "demo_data/human7.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a07e33f3d1030b75b7f38c3216f0561feaa3dff0",
+      "size": 132,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/a07e33f3d1030b75b7f38c3216f0561feaa3dff0"
+    },
+    {
+      "path": "demo_data/monkey.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad8e9bf258cc7f960a6d5bea3e92c961cff0cbb8",
+      "size": 132,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/ad8e9bf258cc7f960a6d5bea3e92c961cff0cbb8"
+    },
+    {
+      "path": "demo_data/rollerblade.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7ded0c7af6ee4d959767a0fc3cf55e5c19fcd17",
+      "size": 133,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/b7ded0c7af6ee4d959767a0fc3cf55e5c19fcd17"
+    },
+    {
+      "path": "evaluation",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2f907b7b09a678ec153478e98a233e684236a515",
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/trees/2f907b7b09a678ec153478e98a233e684236a515"
+    },
+    {
+      "path": "evaluation/2d_track",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d17a68a2f784681452da816598631b2638aacd01",
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/trees/d17a68a2f784681452da816598631b2638aacd01"
+    },
+    {
+      "path": "evaluation/2d_track/datasets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "12c5d94b878b3796525bd6597d682badfa40ec75",
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/trees/12c5d94b878b3796525bd6597d682badfa40ec75"
+    },
+    {
+      "path": "evaluation/2d_track/datasets/kineticsdataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "276a14189fd5fb7ac14d119930d65d1b94b836c3",
+      "size": 2684,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/276a14189fd5fb7ac14d119930d65d1b94b836c3"
+    },
+    {
+      "path": "evaluation/2d_track/datasets/pointdataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e558f5576cc033719b1f248f1b8d1e5402f76506",
+      "size": 14274,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/e558f5576cc033719b1f248f1b8d1e5402f76506"
+    },
+    {
+      "path": "evaluation/2d_track/datasets/rgbstackingdataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d70218d9ea67d49d459b6ad8f228a1ad62c8b460",
+      "size": 3849,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/d70218d9ea67d49d459b6ad8f228a1ad62c8b460"
+    },
+    {
+      "path": "evaluation/2d_track/datasets/robotapdataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a41e75c38b8eb8c3df9db92dae4bc34f2de117f",
+      "size": 5269,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/8a41e75c38b8eb8c3df9db92dae4bc34f2de117f"
+    },
+    {
+      "path": "evaluation/2d_track/eval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eeea7d72f361c02a466875b9cbf31ad5c64d3a69",
+      "size": 19478,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/eeea7d72f361c02a466875b9cbf31ad5c64d3a69"
+    },
+    {
+      "path": "evaluation/eval.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8132c8dcc2ae10eb778d41c8c660475396dd6004",
+      "size": 3470,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/8132c8dcc2ae10eb778d41c8c660475396dd6004"
+    },
+    {
+      "path": "evaluation/flow",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ce19f06923492b8590b75cf115e7039bbb1579b0",
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/trees/ce19f06923492b8590b75cf115e7039bbb1579b0"
+    },
+    {
+      "path": "evaluation/flow/eval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86f576df73ec8171710c2f42ce3566212dac0a07",
+      "size": 25978,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/86f576df73ec8171710c2f42ce3566212dac0a07"
+    },
+    {
+      "path": "evaluation/flow/frame_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46f2c86be58e615bc4f7030bbe0dc733d8b761a0",
+      "size": 8139,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/46f2c86be58e615bc4f7030bbe0dc733d8b761a0"
+    },
+    {
+      "path": "evaluation/opend4rt_comparison",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1a3dbc266c99cd5c9b79fdbec3ea06047049d167",
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/trees/1a3dbc266c99cd5c9b79fdbec3ea06047049d167"
+    },
+    {
+      "path": "evaluation/opend4rt_comparison/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a60b85e148f80966a550e5ab6a762a907c69ca6",
+      "size": 19,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/7a60b85e148f80966a550e5ab6a762a907c69ca6"
+    },
+    {
+      "path": "evaluation/opend4rt_comparison/eval_opend4rt_in_t4w.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bbff9112a26e301e30290bb37c80238140265e46",
+      "size": 8705,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/bbff9112a26e301e30290bb37c80238140265e46"
+    },
+    {
+      "path": "evaluation/opend4rt_comparison/eval_track4world_in_worldtrack.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e30a9cc41dc67c6f0d2e1030f1bcfcc68593f4d3",
+      "size": 14785,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/e30a9cc41dc67c6f0d2e1030f1bcfcc68593f4d3"
+    },
+    {
+      "path": "evaluation/point_cloud",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e45047edbcfd4c9a29aad6e96d9d57763dd58cfa",
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/trees/e45047edbcfd4c9a29aad6e96d9d57763dd58cfa"
+    },
+    {
+      "path": "evaluation/point_cloud/eval_pointcloud.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d6aa4c19d996a4664ae91542db1417221437430",
+      "size": 7980,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/9d6aa4c19d996a4664ae91542db1417221437430"
+    },
+    {
+      "path": "evaluation/point_cloud/eval_videodepth.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6491ceebc89df529dae1e5998608b06a6aa77e4",
+      "size": 8605,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/a6491ceebc89df529dae1e5998608b06a6aa77e4"
+    },
+    {
+      "path": "evaluation/point_cloud/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2a8cec46508d6d51317ed0367eed5f7e83e05ee",
+      "size": 20098,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/d2a8cec46508d6d51317ed0367eed5f7e83e05ee"
+    },
+    {
+      "path": "evaluation/track",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ea0ce3b99297657093672b2d4f8635a185d00dae",
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/trees/ea0ce3b99297657093672b2d4f8635a185d00dae"
+    },
+    {
+      "path": "evaluation/track/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "evaluation/track/eval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13a0034522d6695efb9f0aa94dde89fd767a53fa",
+      "size": 24872,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/13a0034522d6695efb9f0aa94dde89fd767a53fa"
+    },
+    {
+      "path": "evaluation/track/tapvid3d_metrics.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d56512cf8641588a851ab43514ce08dc22dc4d0",
+      "size": 15595,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/4d56512cf8641588a851ab43514ce08dc22dc4d0"
+    },
+    {
+      "path": "evaluation/track/track_eval_utill.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b31298c97b51eb6581acb72b4378ec7590ac2c0",
+      "size": 12304,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/7b31298c97b51eb6581acb72b4378ec7590ac2c0"
+    },
+    {
+      "path": "requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e728216f569dfc4481ec8bcbb95c754837245983",
+      "size": 470,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/e728216f569dfc4481ec8bcbb95c754837245983"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "28653855c743dab956b7e29ae18f797ad5d2fdfd",
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/trees/28653855c743dab956b7e29ae18f797ad5d2fdfd"
+    },
+    {
+      "path": "scripts/demo.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "055a5ccc7bcedd24788906bae0c104239bc82047",
+      "size": 973,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/055a5ccc7bcedd24788906bae0c104239bc82047"
+    },
+    {
+      "path": "scripts/run_dino_sam2.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07e043e9ac4ac14a8143a832fc551c5727d44aac",
+      "size": 9949,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/07e043e9ac4ac14a8143a832fc551c5727d44aac"
+    },
+    {
+      "path": "third_party",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e040c50f7df853d23a959b50545d11870687e6ae",
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/trees/e040c50f7df853d23a959b50545d11870687e6ae"
+    },
+    {
+      "path": "third_party/Open-d4rt",
+      "mode": "160000",
+      "type": "commit",
+      "sha": "403290a6e7ea6262a1f20f8c02d5461cd7b6c9b3"
+    },
+    {
+      "path": "track4world",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a1f88fbd4a3edc903d9490a1444e538637c63681",
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/trees/a1f88fbd4a3edc903d9490a1444e538637c63681"
+    },
+    {
+      "path": "track4world/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "track4world/config",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "867cdcc3e9e5cb7822dd5c8c15fa994f2f1c2a38",
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/trees/867cdcc3e9e5cb7822dd5c8c15fa994f2f1c2a38"
+    },
+    {
+      "path": "track4world/config/eval",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "38440e8903813e1993a0fee838fa44ebb8c22a8a",
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/trees/38440e8903813e1993a0fee838fa44ebb8c22a8a"
+    },
+    {
+      "path": "track4world/config/eval/v1.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ff89d2be02409210ad6b098a5df00367360fac8",
+      "size": 339,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/9ff89d2be02409210ad6b098a5df00367360fac8"
+    },
+    {
+      "path": "track4world/nets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "df4448ca160281b4649cd20ce60f08d0e7c8742d",
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/trees/df4448ca160281b4649cd20ce60f08d0e7c8742d"
+    },
+    {
+      "path": "track4world/nets/blocks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c3ca20a593d59333792063151f49d0c55483d55",
+      "size": 60519,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/1c3ca20a593d59333792063151f49d0c55483d55"
+    },
+    {
+      "path": "track4world/nets/dinov2",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b9e46f07071a6a683b9435a6c7984cfb58529cb3",
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/trees/b9e46f07071a6a683b9435a6c7984cfb58529cb3"
+    },
+    {
+      "path": "track4world/nets/dinov2/__init__.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ae847e46898077fe3d8701b8a181d7b4e3d41cd9",
+      "size": 218,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/ae847e46898077fe3d8701b8a181d7b4e3d41cd9"
+    },
+    {
+      "path": "track4world/nets/dinov2/hub",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4ea3b2e8ce01a76f680673c97b12c76509c1ee30",
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/trees/4ea3b2e8ce01a76f680673c97b12c76509c1ee30"
+    },
+    {
+      "path": "track4world/nets/dinov2/hub/__init__.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "b88da6bf80be92af00b72dfdb0a806fa64a7a2d9",
+      "size": 195,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/b88da6bf80be92af00b72dfdb0a806fa64a7a2d9"
+    },
+    {
+      "path": "track4world/nets/dinov2/hub/backbones.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "53fe83719d5107eb77a8f25ef1814c3d73446002",
+      "size": 4991,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/53fe83719d5107eb77a8f25ef1814c3d73446002"
+    },
+    {
+      "path": "track4world/nets/dinov2/hub/utils.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "9c6641404093652d5a2f19b4cf283d976ec39e64",
+      "size": 1260,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/9c6641404093652d5a2f19b4cf283d976ec39e64"
+    },
+    {
+      "path": "track4world/nets/dinov2/layers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3f185012eee17d11e7461f8c1463b97743519f34",
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/trees/3f185012eee17d11e7461f8c1463b97743519f34"
+    },
+    {
+      "path": "track4world/nets/dinov2/layers/__init__.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "05a0b61868e43abb821ca05a813bab2b8b43629e",
+      "size": 411,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/05a0b61868e43abb821ca05a813bab2b8b43629e"
+    },
+    {
+      "path": "track4world/nets/dinov2/layers/attention.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "3fed573116d5c837be46a7525d8acf77422c2400",
+      "size": 2682,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/3fed573116d5c837be46a7525d8acf77422c2400"
+    },
+    {
+      "path": "track4world/nets/dinov2/layers/block.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "fd5b8a7bb8527b74186af7c1e060e37bdb52c73d",
+      "size": 9619,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/fd5b8a7bb8527b74186af7c1e060e37bdb52c73d"
+    },
+    {
+      "path": "track4world/nets/dinov2/layers/dino_head.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "0ace8ffd6297a1dd480b19db407b662a6ea0f565",
+      "size": 2007,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/0ace8ffd6297a1dd480b19db407b662a6ea0f565"
+    },
+    {
+      "path": "track4world/nets/dinov2/layers/drop_path.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "1d640e0b969b8dcba96260243473700b4e5b24b5",
+      "size": 1157,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/1d640e0b969b8dcba96260243473700b4e5b24b5"
+    },
+    {
+      "path": "track4world/nets/dinov2/layers/layer_scale.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "51df0d7ce61f2b41fa9e6369f52391dd7fe7d386",
+      "size": 820,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/51df0d7ce61f2b41fa9e6369f52391dd7fe7d386"
+    },
+    {
+      "path": "track4world/nets/dinov2/layers/mlp.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "bbf9432aae9258612caeae910a7bde17999e328e",
+      "size": 1269,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/bbf9432aae9258612caeae910a7bde17999e328e"
+    },
+    {
+      "path": "track4world/nets/dinov2/layers/patch_embed.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "8b7c0804784a42cf80c0297d110dcc68cc85b339",
+      "size": 2829,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/8b7c0804784a42cf80c0297d110dcc68cc85b339"
+    },
+    {
+      "path": "track4world/nets/dinov2/layers/swiglu_ffn.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "5ce211515774d42e04c8b51003bae53b88f14b35",
+      "size": 2188,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/5ce211515774d42e04c8b51003bae53b88f14b35"
+    },
+    {
+      "path": "track4world/nets/dinov2/models",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4ffb3670f275bdb1f74f7fbed613872bd48c6907",
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/trees/4ffb3670f275bdb1f74f7fbed613872bd48c6907"
+    },
+    {
+      "path": "track4world/nets/dinov2/models/__init__.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "3fdff20badbd5244bf79f16bf18dd2cb73982265",
+      "size": 1486,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/3fdff20badbd5244bf79f16bf18dd2cb73982265"
+    },
+    {
+      "path": "track4world/nets/dinov2/models/vision_transformer.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "0ec3c47466eab1063ca8c17abd9c8a1c7c972b36",
+      "size": 15115,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/0ec3c47466eab1063ca8c17abd9c8a1c7c972b36"
+    },
+    {
+      "path": "track4world/nets/dinov2/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a935605932221c11aeba0266dfb010b4363b5e56",
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/trees/a935605932221c11aeba0266dfb010b4363b5e56"
+    },
+    {
+      "path": "track4world/nets/dinov2/utils/__init__.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "b88da6bf80be92af00b72dfdb0a806fa64a7a2d9",
+      "size": 195,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/b88da6bf80be92af00b72dfdb0a806fa64a7a2d9"
+    },
+    {
+      "path": "track4world/nets/dinov2/utils/cluster.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e6c3fe015251b75dc1f21f46c1eb8b4e476a6274",
+      "size": 3006,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/e6c3fe015251b75dc1f21f46c1eb8b4e476a6274"
+    },
+    {
+      "path": "track4world/nets/dinov2/utils/config.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "c9de578787bbcb376f8bd5a782206d0eb7ec1f52",
+      "size": 2211,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/c9de578787bbcb376f8bd5a782206d0eb7ec1f52"
+    },
+    {
+      "path": "track4world/nets/dinov2/utils/dtype.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "80f4cd74d99faa2731dbe9f8d3a13d71b3f8e3a8",
+      "size": 1104,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/80f4cd74d99faa2731dbe9f8d3a13d71b3f8e3a8"
+    },
+    {
+      "path": "track4world/nets/dinov2/utils/param_groups.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "9a5d2ff627cddadc222e5f836864ee39c865208f",
+      "size": 3761,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/9a5d2ff627cddadc222e5f836864ee39c865208f"
+    },
+    {
+      "path": "track4world/nets/dinov2/utils/utils.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "68f8e2c3be5f780bbb7e00359b5ac4fd0ba0785f",
+      "size": 3240,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/68f8e2c3be5f780bbb7e00359b5ac4fd0ba0785f"
+    },
+    {
+      "path": "track4world/nets/external",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "608db5fa48d8f492905b5068b12f93d6258bbe10",
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/trees/608db5fa48d8f492905b5068b12f93d6258bbe10"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1c51fd379f839ce88abf766c231cac66681333f9",
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/trees/1c51fd379f839ce88abf766c231cac66681333f9"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/api.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5051055ea08eb787ddc3dd11d1f764065d71d124",
+      "size": 21605,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/5051055ea08eb787ddc3dd11d1f764065d71d124"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/app",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3dcf98c201d2ecf675b70def6bf1190a95e69565",
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/trees/3dcf98c201d2ecf675b70def6bf1190a95e69565"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/app/css_and_html.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d414df9db72a4a395bc15d87ff4edbeb213f18bb",
+      "size": 18836,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/d414df9db72a4a395bc15d87ff4edbeb213f18bb"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/app/gradio_app.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef188c0994c3562ef0671e2ff918a534566d38ca",
+      "size": 26755,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/ef188c0994c3562ef0671e2ff918a534566d38ca"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/app/modules",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "46a2ff38ca830ff69452c1c51b3249ae5fac41e7",
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/trees/46a2ff38ca830ff69452c1c51b3249ae5fac41e7"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/app/modules/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd0b71780214eeadbc4fc44f4ac070e0e5fa7795",
+      "size": 1474,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/dd0b71780214eeadbc4fc44f4ac070e0e5fa7795"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/app/modules/event_handlers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c494edb649c634efc9d1883f6aa523f3c0c82b24",
+      "size": 22969,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/c494edb649c634efc9d1883f6aa523f3c0c82b24"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/app/modules/file_handlers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d738bfeb1e70ab2af752e022899d1bda91eb397d",
+      "size": 11122,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/d738bfeb1e70ab2af752e022899d1bda91eb397d"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/app/modules/model_inference.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ce77b4388b303f95c2f0a9da5c81b2dc55f38f6",
+      "size": 9638,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/6ce77b4388b303f95c2f0a9da5c81b2dc55f38f6"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/app/modules/ui_components.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a3762fff3f14284364dfe0b87a5eaf46ec8669d",
+      "size": 16964,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/3a3762fff3f14284364dfe0b87a5eaf46ec8669d"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/app/modules/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "985abc145753c77143cd87d762ded76ac1dd0755",
+      "size": 6824,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/985abc145753c77143cd87d762ded76ac1dd0755"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/app/modules/visualization.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ada49b25532a6ddbeb0e7f99856498e4ce3fb2ad",
+      "size": 17125,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/ada49b25532a6ddbeb0e7f99856498e4ce3fb2ad"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/bench",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "aac3d4e8afcdbf9eb5600358b40ac1caa385c2d3",
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/trees/aac3d4e8afcdbf9eb5600358b40ac1caa385c2d3"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/bench/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "664ee41e3fde08213d64dc81e543af3b0b0783ad",
+      "size": 1565,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/664ee41e3fde08213d64dc81e543af3b0b0783ad"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/bench/configs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "574c2b9e2a27304b850f3a05937c3160a202caef",
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/trees/574c2b9e2a27304b850f3a05937c3160a202caef"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/bench/configs/eval_bench.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d9924ddfeecb42a5dda47d19f5e86d2bedd8273",
+      "size": 3106,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/1d9924ddfeecb42a5dda47d19f5e86d2bedd8273"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/bench/dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f30a0f96d7414f0ec086e65f37d3fb1ef8ec31e",
+      "size": 4362,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/2f30a0f96d7414f0ec086e65f37d3fb1ef8ec31e"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/bench/datasets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7c57f40c569dd0387178da66f6e74be79d42b5a0",
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/trees/7c57f40c569dd0387178da66f6e74be79d42b5a0"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/bench/datasets/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e9f464300c07432fc515fd1236a9883f1d8cd69",
+      "size": 777,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/2e9f464300c07432fc515fd1236a9883f1d8cd69"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/bench/datasets/dtu.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d07c91577b3e29786471331c55f4609adb6c112",
+      "size": 25775,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/4d07c91577b3e29786471331c55f4609adb6c112"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/bench/datasets/dtu64.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36ebb63223e1140dff9ff8caaee26cfcefe1200f",
+      "size": 6105,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/36ebb63223e1140dff9ff8caaee26cfcefe1200f"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/bench/datasets/eth3d.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b39069517cca9dadafd54d881e8c119c944af526",
+      "size": 20797,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/b39069517cca9dadafd54d881e8c119c944af526"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/bench/datasets/hiroom.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45619f76a4d7409bf5e9674815a10d0bd02085f5",
+      "size": 14960,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/45619f76a4d7409bf5e9674815a10d0bd02085f5"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/bench/datasets/scannetpp.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f841ad11c701a93792ef8814f8093c8a60110d74",
+      "size": 20949,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/f841ad11c701a93792ef8814f8093c8a60110d74"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/bench/datasets/sevenscenes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cce82b385d4460f948d240f3c0991b7570d2177a",
+      "size": 15101,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/cce82b385d4460f948d240f3c0991b7570d2177a"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/bench/evaluator.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b93b98b1017d25060f0541c1201bfaea0806b14",
+      "size": 28707,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/5b93b98b1017d25060f0541c1201bfaea0806b14"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/bench/print_metrics.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9964f3bf74fdf91a15ea0ccedb30995ae79b7281",
+      "size": 22817,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/9964f3bf74fdf91a15ea0ccedb30995ae79b7281"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/bench/registries.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0744661e3dcf7664fc70df5956add84f472109c4",
+      "size": 2749,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/0744661e3dcf7664fc70df5956add84f472109c4"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/bench/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca654773122c247e15d4a99a0beb5d0e80ac8e20",
+      "size": 16963,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/ca654773122c247e15d4a99a0beb5d0e80ac8e20"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/cfg.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4607ff8c0983b67e6ccd2d80b78a163c4e487250",
+      "size": 5037,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/4607ff8c0983b67e6ccd2d80b78a163c4e487250"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/cli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9463028f1df7246dc8c3341e5c28b943289603b",
+      "size": 30757,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/c9463028f1df7246dc8c3341e5c28b943289603b"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/configs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b01fb2a101da30193d714a5d0d48fd6762e1fbe3",
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/trees/b01fb2a101da30193d714a5d0d48fd6762e1fbe3"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/configs/da3-base.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c52a7e5018388a174841469f9a94dc995e14f220",
+      "size": 778,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/c52a7e5018388a174841469f9a94dc995e14f220"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/configs/da3-giant.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5a75c043353aa3e5b7c5368e4b26416c2b0b8b0",
+      "size": 1340,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/f5a75c043353aa3e5b7c5368e4b26416c2b0b8b0"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/configs/da3-large.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4fa367c9d9b46eb9a62aef7041f68c709eb4c6e3",
+      "size": 785,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/4fa367c9d9b46eb9a62aef7041f68c709eb4c6e3"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/configs/da3-small.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10887437697fc9f2614c03add73fe9858b309d91",
+      "size": 774,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/10887437697fc9f2614c03add73fe9858b309d91"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/configs/da3metric-large.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "124635cfd952c25c8857ee3da63ce0444c4377f2",
+      "size": 508,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/124635cfd952c25c8857ee3da63ce0444c4377f2"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/configs/da3mono-large.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "124635cfd952c25c8857ee3da63ce0444c4377f2",
+      "size": 508,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/124635cfd952c25c8857ee3da63ce0444c4377f2"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/configs/da3nested-giant-large.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "595c122b1dc976ecfec58b133b2b60d8f724618c",
+      "size": 222,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/595c122b1dc976ecfec58b133b2b60d8f724618c"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/model",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9e4d2658a7f9bb5ddc3bfe3c1da1f0a0dddb4c5f",
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/trees/9e4d2658a7f9bb5ddc3bfe3c1da1f0a0dddb4c5f"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/model/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57a2a45132eeae8d58a11a26036c54feef9cfe16",
+      "size": 755,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/57a2a45132eeae8d58a11a26036c54feef9cfe16"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/model/cam_dec.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3353b403683bf556b3823081863573dc7f5f719e",
+      "size": 1713,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/3353b403683bf556b3823081863573dc7f5f719e"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/model/cam_enc.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf28e701442fa73d89e54b409800908c138a93d8",
+      "size": 2538,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/bf28e701442fa73d89e54b409800908c138a93d8"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/model/da3.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc418a84306a5eacba512924d5ed4ac7938b3dd0",
+      "size": 19045,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/fc418a84306a5eacba512924d5ed4ac7938b3dd0"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/model/dinov2",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9a2effd19be48cd3cafa7708b9dd7eed92ebe8a6",
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/trees/9a2effd19be48cd3cafa7708b9dd7eed92ebe8a6"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/model/dinov2/dinov2.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee0d88bdd6d33edda6c0fb237ee0c77ffc3f6034",
+      "size": 1824,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/ee0d88bdd6d33edda6c0fb237ee0c77ffc3f6034"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/model/dinov2/layers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4c9e22ed6bd42def9f6aa439f0277bc888feb970",
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/trees/4c9e22ed6bd42def9f6aa439f0277bc888feb970"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/model/dinov2/layers/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97dfba90c12b2ffc5f0f1f823b6384c9b4cd6fa2",
+      "size": 644,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/97dfba90c12b2ffc5f0f1f823b6384c9b4cd6fa2"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/model/dinov2/layers/attention.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "096b9d41ddc95b9c4652597b18f53aee31a573b6",
+      "size": 3264,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/096b9d41ddc95b9c4652597b18f53aee31a573b6"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/model/dinov2/layers/block.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "731519b68b16c8936b765dd1620fbb9c81087f96",
+      "size": 5010,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/731519b68b16c8936b765dd1620fbb9c81087f96"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/model/dinov2/layers/drop_path.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c2cc94e969711f1eb9f62093b79a0139b9bfb1e",
+      "size": 1146,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/1c2cc94e969711f1eb9f62093b79a0139b9bfb1e"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/model/dinov2/layers/layer_scale.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "898ee12d8b4b65d30d8c041588a8277a8f13d4f2",
+      "size": 1000,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/898ee12d8b4b65d30d8c041588a8277a8f13d4f2"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/model/dinov2/layers/mlp.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78ad0d8897ddb77e95d2e188a579f6e1d21e3fb5",
+      "size": 1271,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/78ad0d8897ddb77e95d2e188a579f6e1d21e3fb5"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/model/dinov2/layers/patch_embed.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64bf6be8994fe52b2fdf1753fdb9f7a691e14980",
+      "size": 2903,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/64bf6be8994fe52b2fdf1753fdb9f7a691e14980"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/model/dinov2/layers/rope.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f75ba37c160cd806a32576e2a1704b3352dec7af",
+      "size": 7793,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/f75ba37c160cd806a32576e2a1704b3352dec7af"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/model/dinov2/layers/swiglu_ffn.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8f58e5b265f74c82a4c40adc3ee33a965e503cf",
+      "size": 1858,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/c8f58e5b265f74c82a4c40adc3ee33a965e503cf"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/model/dinov2/vision_transformer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88a92dd08ba60c3aafcfe38d931d129d7f26d3ca",
+      "size": 17576,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/88a92dd08ba60c3aafcfe38d931d129d7f26d3ca"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/model/dpt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "337a8a964a7f96fae997c8b12e3ae13e99dbaa58",
+      "size": 17438,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/337a8a964a7f96fae997c8b12e3ae13e99dbaa58"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/model/dualdpt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "229e1a990472de96f003a4a2d75fdf4ca94b0a3a",
+      "size": 19576,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/229e1a990472de96f003a4a2d75fdf4ca94b0a3a"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/model/gs_adapter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1335ce387476c339fdd7a8b3cb5349dfce56a7e0",
+      "size": 8114,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/1335ce387476c339fdd7a8b3cb5349dfce56a7e0"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/model/gsdpt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70448b7235982a3b47c0c07f15edd4c38677e72e",
+      "size": 4912,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/70448b7235982a3b47c0c07f15edd4c38677e72e"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/model/reference_view_selector.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f406f5ff2e0dad5ce2d12f3a1d3919773fc21e66",
+      "size": 7858,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/f406f5ff2e0dad5ce2d12f3a1d3919773fc21e66"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/model/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e2d88ee7a36f0db22889e36664ef56c1c66b510a",
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/trees/e2d88ee7a36f0db22889e36664ef56c1c66b510a"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/model/utils/attention.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49c07a8c5e5c65fc8e0700aab9ae660552dba610",
+      "size": 3811,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/49c07a8c5e5c65fc8e0700aab9ae660552dba610"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/model/utils/block.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "993fb4c0bdc02bd0976a6471adf1a15452d0f5c0",
+      "size": 2756,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/993fb4c0bdc02bd0976a6471adf1a15452d0f5c0"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/model/utils/gs_renderer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91414d38e84cc030af5207682d06135eec72b125",
+      "size": 12249,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/91414d38e84cc030af5207682d06135eec72b125"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/model/utils/head_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1209582bc6e9b1658a0358df03f5ea79fe61daf",
+      "size": 8107,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/c1209582bc6e9b1658a0358df03f5ea79fe61daf"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/model/utils/transform.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d732b093e5ad1578bc0ba5eb0e31b1b69b766ed",
+      "size": 6549,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/8d732b093e5ad1578bc0ba5eb0e31b1b69b766ed"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/registry.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96450717d696b395503fedfe93af812e975d2671",
+      "size": 2047,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/96450717d696b395503fedfe93af812e975d2671"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/services",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9df81788ebd0274e1e6ae1768ef8cc80d05a035c",
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/trees/9df81788ebd0274e1e6ae1768ef8cc80d05a035c"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/services/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07ed8b6b96d68a3f3933dfa6651875f3f88b0aef",
+      "size": 770,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/07ed8b6b96d68a3f3933dfa6651875f3f88b0aef"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/services/backend.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e279e64c35067ba3d2fcb4b68f71debf9c039903",
+      "size": 49046,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/e279e64c35067ba3d2fcb4b68f71debf9c039903"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/services/gallery.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f72bb5e5f6defbc24cf2278a53b7162a8ad5519d",
+      "size": 36516,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/f72bb5e5f6defbc24cf2278a53b7162a8ad5519d"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/services/inference_service.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ec8dbc521bea02266adfcf42c0b50ac38dab342",
+      "size": 8827,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/2ec8dbc521bea02266adfcf42c0b50ac38dab342"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/services/input_handlers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc0536b51e5c71bb6fb9d10f8e74fbb12fc42d31",
+      "size": 9279,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/dc0536b51e5c71bb6fb9d10f8e74fbb12fc42d31"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/specs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe5b30255e9fd48d988ff00c896fb3dbadf197ea",
+      "size": 1686,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/fe5b30255e9fd48d988ff00c896fb3dbadf197ea"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a98ce6cce3f0781ce66cd64af392f60db053926a",
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/trees/a98ce6cce3f0781ce66cd64af392f60db053926a"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/utils/alignment.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ceb8983fbb85fd8cad51fdd82b794aa3a114df78",
+      "size": 4907,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/ceb8983fbb85fd8cad51fdd82b794aa3a114df78"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/utils/api_helpers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b327331d9ec61a3047be3e330f41156eb124adc4",
+      "size": 1633,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/b327331d9ec61a3047be3e330f41156eb124adc4"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/utils/camera_trj_helpers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83624f359553908abd28af2d59f2066a7f7a7b15",
+      "size": 17585,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/83624f359553908abd28af2d59f2066a7f7a7b15"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/utils/constants.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25c330ee00820f44df05aa624f0aa4763afe1164",
+      "size": 9486,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/25c330ee00820f44df05aa624f0aa4763afe1164"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/utils/export",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e73f28e42d5de0c7aced59090fbd7e24eb11f1f3",
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/trees/e73f28e42d5de0c7aced59090fbd7e24eb11f1f3"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/utils/export/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3e4c657983b19a75865ad7d3329f9f037f60cd6",
+      "size": 2259,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/e3e4c657983b19a75865ad7d3329f9f037f60cd6"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/utils/export/colmap.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e57964cc3302d3f348d91d0b0ecb5d4fe8c0a54b",
+      "size": 5280,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/e57964cc3302d3f348d91d0b0ecb5d4fe8c0a54b"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/utils/export/depth_vis.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8accc04e92985e26b8d78a56db80989be515aac7",
+      "size": 1611,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/8accc04e92985e26b8d78a56db80989be515aac7"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/utils/export/feat_vis.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3dc780ea509d8b5f4660212c2914d3e81f2364a",
+      "size": 2325,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/e3dc780ea509d8b5f4660212c2914d3e81f2364a"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/utils/export/glb.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ece1379d98fedceba03cb53ee4cb62bd49a1ae4f",
+      "size": 15089,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/ece1379d98fedceba03cb53ee4cb62bd49a1ae4f"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/utils/export/gs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90077cf25651c7977c1c1da320b7c0931fdb18ba",
+      "size": 5528,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/90077cf25651c7977c1c1da320b7c0931fdb18ba"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/utils/export/npz.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75df4f5194066c76a177f679e54721cb39739dd7",
+      "size": 2477,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/75df4f5194066c76a177f679e54721cb39739dd7"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/utils/export/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81f45fb563ce595bf547bebe829c9b83eb175f1c",
+      "size": 1252,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/81f45fb563ce595bf547bebe829c9b83eb175f1c"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/utils/geometry.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41a42190d637ef25db3599cc90f9a4f40be3b8d7",
+      "size": 16998,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/41a42190d637ef25db3599cc90f9a4f40be3b8d7"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/utils/gsply_helpers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5733009e4e91ad80ab59179c80e2df8a0430ab5f",
+      "size": 6253,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/5733009e4e91ad80ab59179c80e2df8a0430ab5f"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/utils/io",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0706034f3904bfdb6d7b3b6484cd349680d84fd6",
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/trees/0706034f3904bfdb6d7b3b6484cd349680d84fd6"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/utils/io/input_processor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa60194123c22c84a0cdeb577cbf10e2704278bb",
+      "size": 18924,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/fa60194123c22c84a0cdeb577cbf10e2704278bb"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/utils/io/output_processor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c317eb9d596c1687b5281891a035993868cc5f8c",
+      "size": 5863,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/c317eb9d596c1687b5281891a035993868cc5f8c"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/utils/layout_helpers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "189c170b2007c979e580b69ca929638560923fb2",
+      "size": 6567,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/189c170b2007c979e580b69ca929638560923fb2"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/utils/logger.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0eb4f60696a085001cf4866ccfe1654170702a2d",
+      "size": 2513,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/0eb4f60696a085001cf4866ccfe1654170702a2d"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/utils/memory.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "682dad76b2fccd606246144788cec0198eed2a62",
+      "size": 4503,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/682dad76b2fccd606246144788cec0198eed2a62"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/utils/model_loading.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6d43b5bbab5a0989eae272422192103cd4d5bee",
+      "size": 5065,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/b6d43b5bbab5a0989eae272422192103cd4d5bee"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/utils/parallel_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ff108e95d205097f9f2012ab87ad9e265d58d8d",
+      "size": 4288,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/9ff108e95d205097f9f2012ab87ad9e265d58d8d"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/utils/pca_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b9eee268cd8692d885bf093700a5752077b9d7d",
+      "size": 10631,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/2b9eee268cd8692d885bf093700a5752077b9d7d"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/utils/pose_align.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "695d07fc1210e3cc3614c9b22c56d765b1106500",
+      "size": 12141,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/695d07fc1210e3cc3614c9b22c56d765b1106500"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/utils/ray_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6244dc40089a7bfda7889ddc153d48c44f717da7",
+      "size": 20115,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/6244dc40089a7bfda7889ddc153d48c44f717da7"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/utils/read_write_model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b4cf197f609665e46f14e6b3e8b6657efc5660c",
+      "size": 22453,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/4b4cf197f609665e46f14e6b3e8b6657efc5660c"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/utils/registry.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7db16d525e0417110d87aa5e621b792d8bd95596",
+      "size": 1051,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/7db16d525e0417110d87aa5e621b792d8bd95596"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/utils/sh_helpers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a1a4ca8204eb8d858351afb253e41e77dfa2f74",
+      "size": 3237,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/1a1a4ca8204eb8d858351afb253e41e77dfa2f74"
+    },
+    {
+      "path": "track4world/nets/external/depth_anything_3/utils/visualize.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8fd32bddf00e5461f674525e73653409270c0227",
+      "size": 4123,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/8fd32bddf00e5461f674525e73653409270c0227"
+    },
+    {
+      "path": "track4world/nets/external/pi3x",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ededc70e1293a93470cdaed874976d1a659e2999",
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/trees/ededc70e1293a93470cdaed874976d1a659e2999"
+    },
+    {
+      "path": "track4world/nets/external/pi3x/models",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b6e86fe5aed663e0ecf1e4b8cbce400066d7f8db",
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/trees/b6e86fe5aed663e0ecf1e4b8cbce400066d7f8db"
+    },
+    {
+      "path": "track4world/nets/external/pi3x/models/dinov2",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "db531b80646fcff42212e8143b64e1368e5a3f6b",
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/trees/db531b80646fcff42212e8143b64e1368e5a3f6b"
+    },
+    {
+      "path": "track4world/nets/external/pi3x/models/dinov2/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae847e46898077fe3d8701b8a181d7b4e3d41cd9",
+      "size": 218,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/ae847e46898077fe3d8701b8a181d7b4e3d41cd9"
+    },
+    {
+      "path": "track4world/nets/external/pi3x/models/dinov2/hub",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d4296720ce0ab4dd022e31791eac2da2a9dd59be",
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/trees/d4296720ce0ab4dd022e31791eac2da2a9dd59be"
+    },
+    {
+      "path": "track4world/nets/external/pi3x/models/dinov2/hub/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b88da6bf80be92af00b72dfdb0a806fa64a7a2d9",
+      "size": 195,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/b88da6bf80be92af00b72dfdb0a806fa64a7a2d9"
+    },
+    {
+      "path": "track4world/nets/external/pi3x/models/dinov2/hub/backbones.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53fe83719d5107eb77a8f25ef1814c3d73446002",
+      "size": 4991,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/53fe83719d5107eb77a8f25ef1814c3d73446002"
+    },
+    {
+      "path": "track4world/nets/external/pi3x/models/dinov2/hub/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c6641404093652d5a2f19b4cf283d976ec39e64",
+      "size": 1260,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/9c6641404093652d5a2f19b4cf283d976ec39e64"
+    },
+    {
+      "path": "track4world/nets/external/pi3x/models/dinov2/layers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "be8bb38b9e2500c5d1ef83fbbe0a7148ba3e8069",
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/trees/be8bb38b9e2500c5d1ef83fbbe0a7148ba3e8069"
+    },
+    {
+      "path": "track4world/nets/external/pi3x/models/dinov2/layers/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05a0b61868e43abb821ca05a813bab2b8b43629e",
+      "size": 411,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/05a0b61868e43abb821ca05a813bab2b8b43629e"
+    },
+    {
+      "path": "track4world/nets/external/pi3x/models/dinov2/layers/attention.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3fed573116d5c837be46a7525d8acf77422c2400",
+      "size": 2682,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/3fed573116d5c837be46a7525d8acf77422c2400"
+    },
+    {
+      "path": "track4world/nets/external/pi3x/models/dinov2/layers/block.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd5b8a7bb8527b74186af7c1e060e37bdb52c73d",
+      "size": 9619,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/fd5b8a7bb8527b74186af7c1e060e37bdb52c73d"
+    },
+    {
+      "path": "track4world/nets/external/pi3x/models/dinov2/layers/dino_head.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ace8ffd6297a1dd480b19db407b662a6ea0f565",
+      "size": 2007,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/0ace8ffd6297a1dd480b19db407b662a6ea0f565"
+    },
+    {
+      "path": "track4world/nets/external/pi3x/models/dinov2/layers/drop_path.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d640e0b969b8dcba96260243473700b4e5b24b5",
+      "size": 1157,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/1d640e0b969b8dcba96260243473700b4e5b24b5"
+    },
+    {
+      "path": "track4world/nets/external/pi3x/models/dinov2/layers/layer_scale.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51df0d7ce61f2b41fa9e6369f52391dd7fe7d386",
+      "size": 820,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/51df0d7ce61f2b41fa9e6369f52391dd7fe7d386"
+    },
+    {
+      "path": "track4world/nets/external/pi3x/models/dinov2/layers/mlp.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bbf9432aae9258612caeae910a7bde17999e328e",
+      "size": 1269,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/bbf9432aae9258612caeae910a7bde17999e328e"
+    },
+    {
+      "path": "track4world/nets/external/pi3x/models/dinov2/layers/patch_embed.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b7c0804784a42cf80c0297d110dcc68cc85b339",
+      "size": 2829,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/8b7c0804784a42cf80c0297d110dcc68cc85b339"
+    },
+    {
+      "path": "track4world/nets/external/pi3x/models/dinov2/layers/swiglu_ffn.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ce211515774d42e04c8b51003bae53b88f14b35",
+      "size": 2188,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/5ce211515774d42e04c8b51003bae53b88f14b35"
+    },
+    {
+      "path": "track4world/nets/external/pi3x/models/dinov2/models",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4771f0dd2b85b6fecb3138f9cb46a0f6a95a8ba6",
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/trees/4771f0dd2b85b6fecb3138f9cb46a0f6a95a8ba6"
+    },
+    {
+      "path": "track4world/nets/external/pi3x/models/dinov2/models/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3fdff20badbd5244bf79f16bf18dd2cb73982265",
+      "size": 1486,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/3fdff20badbd5244bf79f16bf18dd2cb73982265"
+    },
+    {
+      "path": "track4world/nets/external/pi3x/models/dinov2/models/vision_transformer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73f15cfb082d0fe629f8aa312c9d9b27a64ad4e7",
+      "size": 15169,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/73f15cfb082d0fe629f8aa312c9d9b27a64ad4e7"
+    },
+    {
+      "path": "track4world/nets/external/pi3x/models/dinov2/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "08d4528581ea449b409443109933ee1f4a10c8ca",
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/trees/08d4528581ea449b409443109933ee1f4a10c8ca"
+    },
+    {
+      "path": "track4world/nets/external/pi3x/models/dinov2/utils/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b88da6bf80be92af00b72dfdb0a806fa64a7a2d9",
+      "size": 195,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/b88da6bf80be92af00b72dfdb0a806fa64a7a2d9"
+    },
+    {
+      "path": "track4world/nets/external/pi3x/models/dinov2/utils/cluster.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3df87dc3e1eb4f0f8a280dc3137cfef031886314",
+      "size": 3010,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/3df87dc3e1eb4f0f8a280dc3137cfef031886314"
+    },
+    {
+      "path": "track4world/nets/external/pi3x/models/dinov2/utils/config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9de578787bbcb376f8bd5a782206d0eb7ec1f52",
+      "size": 2211,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/c9de578787bbcb376f8bd5a782206d0eb7ec1f52"
+    },
+    {
+      "path": "track4world/nets/external/pi3x/models/dinov2/utils/dtype.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80f4cd74d99faa2731dbe9f8d3a13d71b3f8e3a8",
+      "size": 1104,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/80f4cd74d99faa2731dbe9f8d3a13d71b3f8e3a8"
+    },
+    {
+      "path": "track4world/nets/external/pi3x/models/dinov2/utils/param_groups.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a5d2ff627cddadc222e5f836864ee39c865208f",
+      "size": 3761,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/9a5d2ff627cddadc222e5f836864ee39c865208f"
+    },
+    {
+      "path": "track4world/nets/external/pi3x/models/dinov2/utils/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8842e4145414f6f040c4ae83bf38552de8f65b2",
+      "size": 3246,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/e8842e4145414f6f040c4ae83bf38552de8f65b2"
+    },
+    {
+      "path": "track4world/nets/external/pi3x/models/layers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "015f0d1497bd6c52ec5ab5557f0a90543d108a54",
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/trees/015f0d1497bd6c52ec5ab5557f0a90543d108a54"
+    },
+    {
+      "path": "track4world/nets/external/pi3x/models/layers/attention.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1368dc5b89fdf230305481e081100523643cdb08",
+      "size": 15587,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/1368dc5b89fdf230305481e081100523643cdb08"
+    },
+    {
+      "path": "track4world/nets/external/pi3x/models/layers/block.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8fe50f61ef05e4b67e7f9f3cb3e9bc7a9ac5e13",
+      "size": 19582,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/d8fe50f61ef05e4b67e7f9f3cb3e9bc7a9ac5e13"
+    },
+    {
+      "path": "track4world/nets/external/pi3x/models/layers/camera_head.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3dbc156f0aed0ebada257b4297e5cea517860104",
+      "size": 3576,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/3dbc156f0aed0ebada257b4297e5cea517860104"
+    },
+    {
+      "path": "track4world/nets/external/pi3x/models/layers/conv_head.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6ad4c2a71e9e718d1bd78eb5c36d174a3f62076",
+      "size": 8255,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/a6ad4c2a71e9e718d1bd78eb5c36d174a3f62076"
+    },
+    {
+      "path": "track4world/nets/external/pi3x/models/layers/pos_embed.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e27ea0fce111bc3ba49a1e9f0062f956101116b8",
+      "size": 7370,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/e27ea0fce111bc3ba49a1e9f0062f956101116b8"
+    },
+    {
+      "path": "track4world/nets/external/pi3x/models/layers/prope.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34263a63e707d9e2f109c154ac383505381c9ccc",
+      "size": 23306,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/34263a63e707d9e2f109c154ac383505381c9ccc"
+    },
+    {
+      "path": "track4world/nets/external/pi3x/models/layers/transformer_head.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "813aef366e5ff7cc26fb5da45144e8d94c64b7b7",
+      "size": 4456,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/813aef366e5ff7cc26fb5da45144e8d94c64b7b7"
+    },
+    {
+      "path": "track4world/nets/external/pi3x/models/pi3.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "917c6ccba086043f9ad7af49f8ac5f29217c8902",
+      "size": 7798,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/917c6ccba086043f9ad7af49f8ac5f29217c8902"
+    },
+    {
+      "path": "track4world/nets/external/pi3x/models/pi3x.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62141cf27f981ddfea16cd24b84267b77cfefa41",
+      "size": 23978,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/62141cf27f981ddfea16cd24b84267b77cfefa41"
+    },
+    {
+      "path": "track4world/nets/external/pi3x/pipe",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "87a3296af1b6a37b1cb9e404c53f2c5f034ecbe3",
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/trees/87a3296af1b6a37b1cb9e404c53f2c5f034ecbe3"
+    },
+    {
+      "path": "track4world/nets/external/pi3x/pipe/pi3x_vo.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "983fe00a4b63b010d005f307d05709355ba0fcbf",
+      "size": 8888,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/983fe00a4b63b010d005f307d05709355ba0fcbf"
+    },
+    {
+      "path": "track4world/nets/external/pi3x/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dfe1b88418056e875b19b61c30d27a953cd7e813",
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/trees/dfe1b88418056e875b19b61c30d27a953cd7e813"
+    },
+    {
+      "path": "track4world/nets/external/pi3x/utils/basic.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a11546f5d27479c395c6d71ba65eba92a1c4407a",
+      "size": 15014,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/a11546f5d27479c395c6d71ba65eba92a1c4407a"
+    },
+    {
+      "path": "track4world/nets/external/pi3x/utils/debug.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3da8f3d6caece7c828cab2574bf1cbdd207779e",
+      "size": 2119,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/f3da8f3d6caece7c828cab2574bf1cbdd207779e"
+    },
+    {
+      "path": "track4world/nets/external/pi3x/utils/geometry.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf761009b50965b7b585db0cd71a31e51ca481c3",
+      "size": 13702,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/cf761009b50965b7b585db0cd71a31e51ca481c3"
+    },
+    {
+      "path": "track4world/nets/global_aggregator.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e9704b1bf8eb12f083ddacb634ac1cc4db08ab59",
+      "size": 5936,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/e9704b1bf8eb12f083ddacb634ac1cc4db08ab59"
+    },
+    {
+      "path": "track4world/nets/layers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c58226a0ce1abac0bda54b93184fcef0aef0b829",
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/trees/c58226a0ce1abac0bda54b93184fcef0aef0b829"
+    },
+    {
+      "path": "track4world/nets/layers/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3046d4bafd906e2d55a2177e636a35cdebd621e2",
+      "size": 232,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/3046d4bafd906e2d55a2177e636a35cdebd621e2"
+    },
+    {
+      "path": "track4world/nets/layers/attention.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00ab2643478b7dcd6da6ac464180cf59bb4a28f8",
+      "size": 2555,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/00ab2643478b7dcd6da6ac464180cf59bb4a28f8"
+    },
+    {
+      "path": "track4world/nets/layers/block.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "721d045fc7dcb1a486ba9be5b3dad2fa95ac4fd8",
+      "size": 5664,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/721d045fc7dcb1a486ba9be5b3dad2fa95ac4fd8"
+    },
+    {
+      "path": "track4world/nets/layers/rope.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ecef6e0157a88d81084ce5263213505784a47258",
+      "size": 8715,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/ecef6e0157a88d81084ce5263213505784a47258"
+    },
+    {
+      "path": "track4world/nets/model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df55e3456a637fe6e1e31428d3fc7317e4640a7d",
+      "size": 119566,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/df55e3456a637fe6e1e31428d3fc7317e4640a7d"
+    },
+    {
+      "path": "track4world/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8891a410c4894676808ff32c9b2bbc43b855772c",
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/trees/8891a410c4894676808ff32c9b2bbc43b855772c"
+    },
+    {
+      "path": "track4world/utils/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "track4world/utils/alignment.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "b75491453f604f2851739f4e8cf2e9e323659b23",
+      "size": 20976,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/b75491453f604f2851739f4e8cf2e9e323659b23"
+    },
+    {
+      "path": "track4world/utils/basic.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91378c90555b8169b0f1a063dc1d7381a8f1cbaa",
+      "size": 9942,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/91378c90555b8169b0f1a063dc1d7381a8f1cbaa"
+    },
+    {
+      "path": "track4world/utils/bremm.png",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "b76ad44eb80f9edc1f6669a5f97c0d867b959106",
+      "size": 131,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/b76ad44eb80f9edc1f6669a5f97c0d867b959106"
+    },
+    {
+      "path": "track4world/utils/data.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb55e0fd50b4d60f616e89d6a1fb22122f10cbc4",
+      "size": 6495,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/cb55e0fd50b4d60f616e89d6a1fb22122f10cbc4"
+    },
+    {
+      "path": "track4world/utils/geometry_numpy.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "40e0175f5d0555d63ebf785684b5112d86e2bdd0",
+      "size": 20170,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/40e0175f5d0555d63ebf785684b5112d86e2bdd0"
+    },
+    {
+      "path": "track4world/utils/geometry_torch.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "45c91bcc8f3ffabe8c7f134b67ee53a866e947f5",
+      "size": 27811,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/45c91bcc8f3ffabe8c7f134b67ee53a866e947f5"
+    },
+    {
+      "path": "track4world/utils/improc.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df5a711e41839050cc69c9727e81636bcccba10f",
+      "size": 30908,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/df5a711e41839050cc69c9727e81636bcccba10f"
+    },
+    {
+      "path": "track4world/utils/misc.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0529670722d11835c798367279be1055179f6366",
+      "size": 10278,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/0529670722d11835c798367279be1055179f6366"
+    },
+    {
+      "path": "track4world/utils/py.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a82f658392de92221cd86b918fce117213f2e7f7",
+      "size": 16754,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/a82f658392de92221cd86b918fce117213f2e7f7"
+    },
+    {
+      "path": "visualization",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "26d55a88841fed5275f3869ca2039ce6a8412d5d",
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/trees/26d55a88841fed5275f3869ca2039ce6a8412d5d"
+    },
+    {
+      "path": "visualization/vis_3d_efep.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c06a83ecd7cff77fc8781fcdf1959f815a042345",
+      "size": 22394,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/c06a83ecd7cff77fc8781fcdf1959f815a042345"
+    },
+    {
+      "path": "visualization/vis_3d_efep_world.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54163c2a75e3987a20c9336eb4ec254052736b5a",
+      "size": 32325,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/54163c2a75e3987a20c9336eb4ec254052736b5a"
+    },
+    {
+      "path": "visualization/vis_3d_ff.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8621ca43af57e905e9f7b275ab618ea8fe6715b6",
+      "size": 10352,
+      "url": "https://api.github.com/repos/TencentARC/Track4World/git/blobs/8621ca43af57e905e9f7b275ab618ea8fe6715b6"
+    }
+  ],
+  "truncated": false
+}

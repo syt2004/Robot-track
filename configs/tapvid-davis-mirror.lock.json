@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "dataset": "tapvid_davis",
+  "role": "supplementary evaluation only",
+  "repository": "jxie/tapvid-davis",
+  "revision": "635702d701ac6701e20ddb6bcfd21d78ae4c20eb",
+  "path": "data/downloads/tapvid-davis-jxie.parquet",
+  "bytes": 10121247,
+  "sha256": "5013aa1000bdfec3e35ace12aaeb2a7a257007914db36556349d41c36034e7ca",
+  "url": "https://huggingface.co/datasets/jxie/tapvid-davis/resolve/635702d701ac6701e20ddb6bcfd21d78ae4c20eb/data/test-00000-of-00001.parquet",
+  "declared_rows": 29,
+  "upstream_official_byte_identity_verified": false,
+  "acceptance": "Decode and validate video/track alignment before evaluation; mirror declares 29 records, not the official full 30-video benchmark",
+  "subset_selection": "lowest sha256(seed:row_index), seed=20261030, 3 records; never chosen by model outcomes"
+}

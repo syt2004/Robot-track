@@ -1,0 +1,10 @@
+{
+  "state": "fixed_before_training_not_accepted",
+  "bindings": {
+    "runs/memory-repair-415/train.py": "9a7753ee5f8e76fdf5b9d9b1ee67fdd9ceaa8b4911daf7f3aa12c90fca3ded3c",
+    "runs/memory-repair-415/source_manifest.json": "a345a4ce7eefbcf82d2ae83d8c783fb1ddbb6d3e4f7b6dfbb7b46c3c71a4026e",
+    "runs/memory-repair-415/inference.json": "fea28d2967f8e0fa168fdd98e28f39c8b37ec024098b0b8522ff4a674209a42d",
+    "runs/memory-repair-415/recipe.json": "09fc79c14c634103052f7cffd2a81b8246360df65bdbf14df8ba2d06262b0fa6",
+    "runs/memory-repair-415/verified_manifest.json": "46207daad0361a86cb8ad35aa63ce06ebbd15101e9f833c78cb48e016b53c5fb"
+  }
+}

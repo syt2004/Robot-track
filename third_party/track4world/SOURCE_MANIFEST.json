@@ -1,0 +1,28 @@
+{
+  "repository": "TencentARC/Track4World",
+  "commit": "fbd59ffadf2de9fccba5ea017e13af239075fbe9",
+  "verified_blobs": 195,
+  "skipped_presentation_files": [
+    "assets/arxiv_Track4World.pdf",
+    "assets/demo_cam.gif",
+    "assets/demo_world.gif",
+    "assets/framework.png",
+    "assets/logo.jpg",
+    "demo_data/bear.mp4",
+    "demo_data/car-roundabout.mp4",
+    "demo_data/cat.mp4",
+    "demo_data/drift-straight.mp4",
+    "demo_data/human5.mp4",
+    "demo_data/human7.mp4",
+    "demo_data/monkey.mp4",
+    "demo_data/rollerblade.mp4"
+  ],
+  "uninstalled_submodules": [
+    {
+      "path": "third_party/Open-d4rt",
+      "mode": "160000",
+      "type": "commit",
+      "sha": "403290a6e7ea6262a1f20f8c02d5461cd7b6c9b3"
+    }
+  ]
+}

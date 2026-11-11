@@ -1,0 +1,6 @@
+{
+  "state": "passed",
+  "identical_candidates_accept": 0,
+  "last_frame_original_adapter_max_diff": 0.0,
+  "scope": "Real frozen Verifier; historical all-frame scores agree with original last-frame adapter"
+}

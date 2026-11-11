@@ -1,0 +1,55 @@
+{
+  "source": "https://storage.googleapis.com/download/storage/v1/b/dm-tapnet/o/robotap%2Frobotap.zip?alt=media&generation=1693927735577112",
+  "bytes": 13558087507,
+  "entries": [
+    {
+      "name": "robotap/",
+      "compressed": 0,
+      "uncompressed": 0,
+      "offset": 0,
+      "crc": 0
+    },
+    {
+      "name": "robotap/README.md",
+      "compressed": 356,
+      "uncompressed": 612,
+      "offset": 66,
+      "crc": 2664337685
+    },
+    {
+      "name": "robotap/robotap_split4.pkl",
+      "compressed": 3198260535,
+      "uncompressed": 8569614880,
+      "offset": 497,
+      "crc": 1844176854
+    },
+    {
+      "name": "robotap/robotap_split3.pkl",
+      "compressed": 3504417686,
+      "uncompressed": 8625803948,
+      "offset": 3198261136,
+      "crc": 2414943390
+    },
+    {
+      "name": "robotap/robotap_split0.pkl",
+      "compressed": 1838970159,
+      "uncompressed": 6204610710,
+      "offset": 6702678926,
+      "crc": 2767167197
+    },
+    {
+      "name": "robotap/robotap_split2.pkl",
+      "compressed": 2671723426,
+      "uncompressed": 7971820026,
+      "offset": 8541649189,
+      "crc": 2485885202
+    },
+    {
+      "name": "robotap/robotap_split1.pkl",
+      "compressed": 2344713857,
+      "uncompressed": 6835282828,
+      "offset": 11213372719,
+      "crc": 543465588
+    }
+  ]
+}

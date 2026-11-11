@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "repository": "facebook/CoTracker3_Kubric",
+  "revision": "a23b6e6e332595c9d92944680a10415e93bfd1e1",
+  "selection": "Next two hash-ranked validation archives from prior 64-scene lock; exclude both development scenes; no outcome filtering",
+  "seed": 20261029,
+  "source_archive_count": 5869,
+  "selected_archive_count": 2,
+  "train_archive_count": 0,
+  "validation_archive_count": 2,
+  "total_compressed_bytes": 612971532,
+  "scope": "user-authorized subset; not the complete published Kubric dataset",
+  "source_inventory_sha256": "4e89789298294b859d4ecdef1de381703a4fe1be3d138a36a0923ee77a1ae34d",
+  "files": [
+    {
+      "path": "2094.tar.gz",
+      "bytes": 329842194,
+      "sha256": "f9cc997b9f4968a6d3ad2c78977e2622df3a200a7f45afa3d2508db3a6603b05",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/2094.tar.gz",
+      "split": "val"
+    },
+    {
+      "path": "2673.tar.gz",
+      "bytes": 283129338,
+      "sha256": "bc7e5da11811fb4705810b3bd1c03379feef8089380a613cf69fe1e1176d4a5c",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/2673.tar.gz",
+      "split": "val"
+    }
+  ],
+  "parent_selection_sha256": "96581d52a3ec328a12b78d77ca401f234abb408f75467da9013dc52d28271e24"
+}

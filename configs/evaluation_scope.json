@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "confirmed_date": "2026-10-30",
+  "scope": "robot_manipulation_video_only",
+  "applies_to": [
+    "paper_quantitative_results",
+    "baseline_comparison",
+    "full_method_evaluation",
+    "ablations",
+    "qualitative_method_demonstrations"
+  ],
+  "primary_quantitative_dataset": "RoboTAP fixed annotated subset",
+  "training_allowed": [
+    "Kubric training split"
+  ],
+  "engineering_diagnostics_only": [
+    "DAVIS",
+    "generic Kubric evaluation splits"
+  ],
+  "rgb_only_robot_video": {
+    "role": "qualitative_only",
+    "ground_truth_metrics_allowed": false,
+    "other_model_predictions_are_ground_truth": false
+  },
+  "selection": "fixed before model outcomes; retain negative results",
+  "offline_video_proves_robot_task_success_improvement": false,
+  "enforcement": "documented experiment policy; not yet a runtime gate"
+}

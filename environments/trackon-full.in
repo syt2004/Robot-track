@@ -1,0 +1,6 @@
+-r trackon-core.in
+-r ../third_party/track_on/requirements.txt
+mmcv==2.2.0
+# Imported by the upstream training utilities even during Predictor import.
+# Keep NumPy 1.x ABI compatibility with the pinned CUDA stack.
+opencv-python==4.11.0.86

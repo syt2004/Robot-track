@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "repository": "depth-anything/DA3NESTED-GIANT-LARGE-1.1",
+  "revision": "b2359bdf726fb44ef62acca04d629dcf158053e7",
+  "source_sha256": "8ebe871a022ed58d2fc8fdfb2ebdb31d57b60fe39611c849095851a7b7c6020c",
+  "source_bytes": 6759558100,
+  "source_url": "https://huggingface.co/depth-anything/DA3NESTED-GIANT-LARGE-1.1/resolve/b2359bdf726fb44ef62acca04d629dcf158053e7/model.safetensors",
+  "source_header_bytes": 176024,
+  "source_header_sha256": "f4122d74b06bc086160f3a1e2598e2931fad6e0b62414f5fb679b0153331dbdb",
+  "prefix": "model.da3_metric.",
+  "tensor_count": 406,
+  "range_start": 5422872524,
+  "range_end_exclusive": 6759558100,
+  "payload_bytes": 1336685576,
+  "whole_source_sha256_verified_locally": false,
+  "reason": "Official Track4World checkpoint overwrites all anyview branch parameters; metric branch remains pretrained"
+}

@@ -1,0 +1,24 @@
+{
+  "status": "candidate_pending_fresh_reproduction_and_expanded_robot_validation",
+  "head_architecture": "candidate_rank_current_visibility_valid_age_position1000_v5",
+  "source": "method_candidate/v5/source",
+  "source_manifest": "method_candidate/v5/source_manifest.json",
+  "source_manifest_sha256": "67bb730846edb2140e91a8a6e8683cea57ca9989085946677ec344f9920b2441",
+  "runner": "scripts/run_frozen_module.py",
+  "runner_sha256": "0af3cadf42d69dede480d59c7b1a5b28b89a0edda44d12b90bddfd23d52d8d68",
+  "source_origin": "runs/expanded-robot-head-015-028-retry-003/source",
+  "source_changes_from_original56": [
+    "geoverify/geometry_worker.py: validated unused-final-downsample compatibility",
+    "geoverify/correlation_pyramid.py: compatibility context",
+    "tests/test_evidence_clock.py: portable same-architecture clock-protocol fixture; production code unchanged"
+  ],
+  "commands": {
+    "train": "train_calibrator",
+    "cache": "geoverify.build_cache",
+    "promote": "geoverify.promote_runtime",
+    "evaluate": "geoverify.run_dataset",
+    "demo": "demo_video"
+  },
+  "scope": "Exact copied validated production source; one stale historical-asset test fixture repaired, including point sampling and evidence-clock protocol; original frozen experiments untouched. External weights, datasets and runtime configurations remain explicit inputs. Not final paper or hardware acceptance.",
+  "source_origin_manifest_sha256": "60950b38f4bceb30a89719cce4e4199add4ba74c8d10c0f7ad1ae0fd520409d0"
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "training": {
+    "dataset": "facebook/CoTracker3_Kubric",
+    "revision": "a23b6e6e332595c9d92944680a10415e93bfd1e1",
+    "published_archive_count": 5869,
+    "scope": "user-authorized deterministic subset; full source inventory retained only for provenance",
+    "inventory": "kubric.archives.lock.json",
+    "total_compressed_bytes": 1883124682991,
+    "selected_inventory": "kubric.small.lock.json",
+    "selected_archive_count": 2,
+    "selected_compressed_bytes": 555657563,
+    "train_archive_count": 1,
+    "validation_archive_count": 1,
+    "bulk_storage_approval": "user requested only a small necessary subset; 64-archive queue stopped, no TB-scale transfer",
+    "initial_format_validation_archive": {
+      "path": "0000.tar.gz",
+      "bytes": 307317320,
+      "sha256": "5f7b388c22fbb06808591d6b5b73a624e97106e7a3c3aa3de3770a7e0008b04e"
+    },
+    "complete": false
+  },
+  "evaluation": {
+    "dataset": "robotap",
+    "url": "https://storage.googleapis.com/dm-tapnet/robotap/robotap.zip?generation=1693927735577112",
+    "bytes": 13558087507,
+    "md5": "08dc00f12b10a7d70e0afd53ab822762",
+    "role": "evaluation only; never calibration training supervision",
+    "complete": false,
+    "active_download_strategy": {
+      "kind": "verified_zip_member_prefix",
+      "source_index": "robotap.zip-index.json",
+      "member": "robotap/robotap_split4.pkl",
+      "required_prefix_bytes": 3198261136,
+      "uncompressed_member_bytes": 8569614880,
+      "subset_videos": 3,
+      "seed": 20261029,
+      "scope": "split4 only; full selected videos and queryable tracks",
+      "whole_archive_md5_verified": false,
+      "integrity": "Pinned GCS generation, ZIP64 header agreement, member CRC32 and size, local SHA256 provenance"
+    }
+  }
+}

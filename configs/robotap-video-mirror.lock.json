@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "repository": "zeweizhang/TrajLoomDatasets",
+  "revision": "eb426f2eda13b3d4cebfac8a5d3604ddcf5b61a6",
+  "path": "data/downloads/robotap-video-trajloom.zip",
+  "bytes": 150223019,
+  "sha256": "2f22bff175c421d581fd7917d9638469ba5fb888b0899da305fbc305670a84da",
+  "url": "https://huggingface.co/datasets/zeweizhang/TrajLoomDatasets/resolve/eb426f2eda13b3d4cebfac8a5d3604ddcf5b61a6/robotap_video.zip",
+  "role": "RGB-only qualitative robot-operation validation; no GT metrics",
+  "has_ground_truth_annotations": false,
+  "whole_original_robotap_identity_verified": false,
+  "selection": {
+    "seed": 20261030,
+    "count": 3,
+    "method": "lowest sha256(seed:archive_member_name) among video files, before model outcomes"
+  }
+}

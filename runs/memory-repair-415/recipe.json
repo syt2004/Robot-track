@@ -1,0 +1,20 @@
+{
+  "state": "fixed_before_training",
+  "architecture": "verified_geometry_shadow_memory_v4",
+  "maximum_relative_change": 0.25,
+  "reference": "independent unmodified shadow; one shared RGB encoder, two state-dependent decoder passes",
+  "epochs": 3,
+  "train_sources": 111,
+  "validation_sources": 28,
+  "events_per_source": 3,
+  "horizon": 16,
+  "lr": 0.0001,
+  "weight_decay": 0.0001,
+  "clip_gradient_norm": 1,
+  "selection": "training-side validation AJ only",
+  "acceptance": "Overall equal-video AJ on fixed21 robot videos, with independent from-zero reproduction before promotion; report DEV12 and reused9 separately. No untouched-test or guaranteed scale/robot-control claims.",
+  "history_reference": "independent_shadow_history_v1",
+  "write_admission": "Per-slot historical paired frozen Verifier margin >1e-6; geometry validity required; ties rejected",
+  "evidence_features": "Last2 slots: tanh paired margin and fraction of positive window slots for query",
+  "hypothesis": "Reject unsupported geometry before it changes recurrent state; independently anchored memory still bounds propagation"
+}

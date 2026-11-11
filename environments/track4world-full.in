@@ -1,0 +1,7 @@
+# Preserve the pinned upstream dependency set, including import-time exporters.
+-r track4world-core.in
+-r ../third_party/track4world/requirements.txt
+# DA3 model/da3.py and output_processor.py import addict directly; upstream omits it.
+addict==2.4.0
+# Preserve NumPy 1.x ABI required by the official core environment.
+opencv-python==4.11.0.86

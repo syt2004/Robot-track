@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "purpose": "select configurations on robot development videos, then freeze and reproduce from scratch",
+  "development_manifest": "runs/robot-development-001/manifest.json",
+  "held_out_reporting_manifest": "runs/robotap-subset-validation-002/prepared/manifest.json",
+  "held_out_caveat": "Existing reporting subset has already been inspected diagnostically; do not describe it as never-seen blind test. Do not use it for hyperparameter or checkpoint selection.",
+  "selection_scope": "same full videos and query sets; no per-method clipping or selection",
+  "primary_metric": "equal-video mean TAP-Vid first-query average_jaccard",
+  "secondary_metrics": ["occlusion_accuracy", "average_pts_within_thresh", "per-video regressions", "geometry usage", "actual latency"],
+  "initial_freeze_gate": {
+    "mean_AJ_above_raw": true,
+    "positive_AJ_delta_videos_at_least": 2,
+    "worst_video_AJ_drop_percentage_points_at_most": 1.0,
+    "saved_output_causal_and_fusion_checks": "all pass"
+  },
+  "gate_note": "Practical development gate fixed before development inference results, not statistical significance or paper acceptance.",
+  "iteration": "Each change uses a new versioned configuration/output directory; never edit an active run's model code or rewrite its metrics.",
+  "freeze_contents": ["source snapshot and hashes", "asset hashes", "training/development/reporting manifests", "query and replay protocol", "hyperparameters", "random seeds", "selected checkpoint", "environment versions", "GPU and timing policy"],
+  "scratch_reproduction": "New empty output directories; rebuild geometric caches from verified source videos, initialize and train head anew, rerun development then reporting evaluation. Do not copy cached model predictions or trained head into the reproduction.",
+  "reproduction_limit": "Asynchronous wall-clock scheduling can change evidence availability; measure repeated-run variation rather than promise bitwise identity.",
+  "training_rule": "Current Kubric train supervision is permitted; all algorithm selection and final validation use robot videos. Development labels are never promoted to final test evidence."
+}

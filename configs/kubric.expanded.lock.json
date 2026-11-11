@@ -1,0 +1,468 @@
+{
+  "schema_version": 1,
+  "repository": "facebook/CoTracker3_Kubric",
+  "revision": "a23b6e6e332595c9d92944680a10415e93bfd1e1",
+  "selection": "Preserve prior splits; add sha256(seed:archive_path) ranked unused scenes; independent of model outputs",
+  "seed": 20261029,
+  "source_archive_count": 5869,
+  "selected_archive_count": 64,
+  "train_archive_count": 56,
+  "validation_archive_count": 8,
+  "total_compressed_bytes": 20621493645,
+  "scope": "user-authorized subset; not the complete published Kubric dataset",
+  "files": [
+    {
+      "path": "0263.tar.gz",
+      "bytes": 336534563,
+      "sha256": "4ef5696088303b2f6a3a56bf87c5f53182969116287d017e1e2e111f80642ffc",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/0263.tar.gz",
+      "split": "train"
+    },
+    {
+      "path": "0285.tar.gz",
+      "bytes": 349200732,
+      "sha256": "661b273992a4d880abd85e569a9f055c4ccc628312944017bbea4fa4d04e6f52",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/0285.tar.gz",
+      "split": "train"
+    },
+    {
+      "path": "0326.tar.gz",
+      "bytes": 322578978,
+      "sha256": "5fed5dbaae89983f466aa0dbaea6b1913fc1825cefde587ce873cf292277ebc9",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/0326.tar.gz",
+      "split": "train"
+    },
+    {
+      "path": "0365.tar.gz",
+      "bytes": 325670957,
+      "sha256": "469111896bd3e31317a0bcb5100d7aaffb9bde9e3a9e3ac12a6925eb26eca723",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/0365.tar.gz",
+      "split": "train"
+    },
+    {
+      "path": "0367.tar.gz",
+      "bytes": 294207799,
+      "sha256": "096bedad01129bdd123145bf9b6adb5aedcad51469534f129bd96a770f853a8c",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/0367.tar.gz",
+      "split": "train"
+    },
+    {
+      "path": "0404.tar.gz",
+      "bytes": 325619105,
+      "sha256": "08a4345c9214a882cf8a157246d231f6ff0964ef384ab89e95eef8506c47ffc3",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/0404.tar.gz",
+      "split": "train"
+    },
+    {
+      "path": "0437.tar.gz",
+      "bytes": 346218660,
+      "sha256": "9cd61e5382e79c0d8bd9592d2a0332e45671b9f26858cd6ff9cb9d72848f446d",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/0437.tar.gz",
+      "split": "train"
+    },
+    {
+      "path": "0519.tar.gz",
+      "bytes": 323288614,
+      "sha256": "9d6b86271ec71fbe8a3366fa48ace1e58accc9e458b32392eee8611fcfe5a550",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/0519.tar.gz",
+      "split": "train"
+    },
+    {
+      "path": "0653.tar.gz",
+      "bytes": 326649768,
+      "sha256": "86303f59d94acf4c7a8e479c9dd28e441d0a5c4d191d77c0cb6117d23994e6ed",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/0653.tar.gz",
+      "split": "train"
+    },
+    {
+      "path": "0752.tar.gz",
+      "bytes": 325705845,
+      "sha256": "99c125f3599de127e4c2ac7daf5523edf95f153d206eb742052e6097344e6936",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/0752.tar.gz",
+      "split": "train"
+    },
+    {
+      "path": "0769.tar.gz",
+      "bytes": 352540012,
+      "sha256": "634d3f7fabe4bfbca42e35a4822d3211dbd1941ef5a52e5b66c615bec2e0e53f",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/0769.tar.gz",
+      "split": "train"
+    },
+    {
+      "path": "0808.tar.gz",
+      "bytes": 316863846,
+      "sha256": "d8fab7cad5ffd98e870f36bcbca8b9041bbbcbb38963abf59290c1c9621ffa96",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/0808.tar.gz",
+      "split": "train"
+    },
+    {
+      "path": "0977.tar.gz",
+      "bytes": 317220532,
+      "sha256": "b62714c96ee09f2b50307df30ae37015e10cc99df8f99bd3838db644566eba55",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/0977.tar.gz",
+      "split": "train"
+    },
+    {
+      "path": "1008.tar.gz",
+      "bytes": 337300001,
+      "sha256": "bcc269ed8f55b4c1e1e9bdb502066a72144bfa53ae9fbbc918d15000641c7ed7",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/1008.tar.gz",
+      "split": "train"
+    },
+    {
+      "path": "1012.tar.gz",
+      "bytes": 314194276,
+      "sha256": "cc9e773829ad6179a39484005cdab30adafbc033e9742fa6ba99cfd8218cd680",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/1012.tar.gz",
+      "split": "train"
+    },
+    {
+      "path": "1039.tar.gz",
+      "bytes": 330498680,
+      "sha256": "4771f96d6c0c3a169b192b66910faa82fef53de7ff4bf21e64e88e60e73f6b30",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/1039.tar.gz",
+      "split": "train"
+    },
+    {
+      "path": "1256.tar.gz",
+      "bytes": 273038560,
+      "sha256": "441b51e190f6501a074af25144f65dc192129dd45705efaff62b60c6e975f8dc",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/1256.tar.gz",
+      "split": "train"
+    },
+    {
+      "path": "1328.tar.gz",
+      "bytes": 324277985,
+      "sha256": "48a8dcdcba1fad8cd1d42077a9aa318cba65394fb4d47debf38bdddd33238056",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/1328.tar.gz",
+      "split": "val"
+    },
+    {
+      "path": "1370.tar.gz",
+      "bytes": 324655041,
+      "sha256": "47dc5187b25bf82387abd59ec5c80d9730df597d8a845453de4c6a37bc043100",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/1370.tar.gz",
+      "split": "train"
+    },
+    {
+      "path": "1395.tar.gz",
+      "bytes": 325196620,
+      "sha256": "c152bb02741e35d1e1737d9988e5403a507b6ee17e49458f035736c5073dad8f",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/1395.tar.gz",
+      "split": "train"
+    },
+    {
+      "path": "1757.tar.gz",
+      "bytes": 344019549,
+      "sha256": "9cfe37340521aaabb635de2fef600a945a76a9b36484634c70bf7c4656f7d2d6",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/1757.tar.gz",
+      "split": "train"
+    },
+    {
+      "path": "1777.tar.gz",
+      "bytes": 302327821,
+      "sha256": "61786d706646f51695fe9778d3990c35b3450f2b0c850188bd573b8a56e48af8",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/1777.tar.gz",
+      "split": "train"
+    },
+    {
+      "path": "1891.tar.gz",
+      "bytes": 319523384,
+      "sha256": "e30c62d1b8fb707eecbab17a53fb93e9e2607b59bbb854274dd0eb11bc0e8438",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/1891.tar.gz",
+      "split": "train"
+    },
+    {
+      "path": "2028.tar.gz",
+      "bytes": 320795810,
+      "sha256": "ca3ac20ec02487da4d50904c30d090175a8fc663e07b6c2f4b360407806be223",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/2028.tar.gz",
+      "split": "train"
+    },
+    {
+      "path": "2063.tar.gz",
+      "bytes": 342661886,
+      "sha256": "62cc25b8a277b75bbfa53fe18b9fb8d54386fb0a19c107e55abb0de915c4428a",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/2063.tar.gz",
+      "split": "train"
+    },
+    {
+      "path": "2094.tar.gz",
+      "bytes": 329842194,
+      "sha256": "f9cc997b9f4968a6d3ad2c78977e2622df3a200a7f45afa3d2508db3a6603b05",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/2094.tar.gz",
+      "split": "val"
+    },
+    {
+      "path": "2402.tar.gz",
+      "bytes": 250540746,
+      "sha256": "676a3d74b1f0b3d7e4e7ba70183c0234a04cb65ee1b7514d17c521e417160b96",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/2402.tar.gz",
+      "split": "train"
+    },
+    {
+      "path": "2494.tar.gz",
+      "bytes": 291262835,
+      "sha256": "21bf4e33f9204642f2a091ef0ef4f81f2d3e6124a8e173ecae444a146f8f44df",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/2494.tar.gz",
+      "split": "train"
+    },
+    {
+      "path": "2569.tar.gz",
+      "bytes": 293327134,
+      "sha256": "d5bfd2c1eda6f1174f422f73b540f7cb8922cef4cd73a82477c9254d525a7996",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/2569.tar.gz",
+      "split": "train"
+    },
+    {
+      "path": "2673.tar.gz",
+      "bytes": 283129338,
+      "sha256": "bc7e5da11811fb4705810b3bd1c03379feef8089380a613cf69fe1e1176d4a5c",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/2673.tar.gz",
+      "split": "val"
+    },
+    {
+      "path": "2723.tar.gz",
+      "bytes": 354630229,
+      "sha256": "a200a1507f742f488ca0567545754897e366b00c42fd7384efa5cf9171ad4a54",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/2723.tar.gz",
+      "split": "train"
+    },
+    {
+      "path": "3062.tar.gz",
+      "bytes": 357740594,
+      "sha256": "b39f490cecddaaa73e435e7951dc5c3bb19b93c93a03e0c64c6aae380af593e5",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/3062.tar.gz",
+      "split": "val"
+    },
+    {
+      "path": "3110.tar.gz",
+      "bytes": 337165834,
+      "sha256": "d70c40d1e143b8c5e1d1a2a3c07fb6b2caa6b2de00e5039028b5017dae253eea",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/3110.tar.gz",
+      "split": "train"
+    },
+    {
+      "path": "3369.tar.gz",
+      "bytes": 306821412,
+      "sha256": "d9c6b6b01c733a61e36d442c425b94537b0e7bfaef04d7806a968acc9eae8976",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/3369.tar.gz",
+      "split": "train"
+    },
+    {
+      "path": "3487.tar.gz",
+      "bytes": 327939390,
+      "sha256": "89962b38dce73614b109f4dd3ab8326045406ef90fb70e6d5e7d71bb9b03fc80",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/3487.tar.gz",
+      "split": "train"
+    },
+    {
+      "path": "3552.tar.gz",
+      "bytes": 334983069,
+      "sha256": "2ba0cbd80931e72244520ba3680cb66e8a0e90740e9c2f51c6aae2b1df7ccd85",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/3552.tar.gz",
+      "split": "train"
+    },
+    {
+      "path": "3569.tar.gz",
+      "bytes": 326289927,
+      "sha256": "73a705fde134bb55a10825f7005c77beaf7909cbe46d91a2bafb1be6d47058bf",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/3569.tar.gz",
+      "split": "train"
+    },
+    {
+      "path": "3593.tar.gz",
+      "bytes": 319922932,
+      "sha256": "eef37e25ec750565018261fae6133d1441bc6108d043d3d5649dfbdfc6e169c6",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/3593.tar.gz",
+      "split": "train"
+    },
+    {
+      "path": "3614.tar.gz",
+      "bytes": 329655087,
+      "sha256": "cd4f78229118fe242baa2a44f28e3797473970519547274d8916b5e47125114b",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/3614.tar.gz",
+      "split": "val"
+    },
+    {
+      "path": "4056.tar.gz",
+      "bytes": 314096779,
+      "sha256": "bc62323ec189f8e08f8a46878d459b2cfd8cbd8086f2197185b4f9a67735ccf5",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/4056.tar.gz",
+      "split": "train"
+    },
+    {
+      "path": "4064.tar.gz",
+      "bytes": 342370438,
+      "sha256": "67f816f5e1c582b5374eb3ddd4b1904176a46c401e9a28d175c6db1bc871f3d9",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/4064.tar.gz",
+      "split": "train"
+    },
+    {
+      "path": "4145.tar.gz",
+      "bytes": 321987877,
+      "sha256": "86ab123a17917d2044d5adb7b211a0cb7fc334f5a09598f3d9f5514fbe12e131",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/4145.tar.gz",
+      "split": "train"
+    },
+    {
+      "path": "4153.tar.gz",
+      "bytes": 328035693,
+      "sha256": "503847ce5175b271b2fa897e616b86ce8bd0909997d43b4de19a33612c668645",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/4153.tar.gz",
+      "split": "train"
+    },
+    {
+      "path": "4249.tar.gz",
+      "bytes": 273833919,
+      "sha256": "df6977c9079786a7598681cd99022d7b82c08f0d84be7ac97a1cdb381f575236",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/4249.tar.gz",
+      "split": "train"
+    },
+    {
+      "path": "4294.tar.gz",
+      "bytes": 341966773,
+      "sha256": "887c280a5569d34f6e2df739bec9d0ba6136929dc76bb09d36c6c8daa19ae371",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/4294.tar.gz",
+      "split": "train"
+    },
+    {
+      "path": "4437.tar.gz",
+      "bytes": 334336283,
+      "sha256": "f7fc27aa0986153a3000ebfcbf7e65fbdf998285fc470280f63fca29d2683cb9",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/4437.tar.gz",
+      "split": "train"
+    },
+    {
+      "path": "4513.tar.gz",
+      "bytes": 318592573,
+      "sha256": "ee9464e65fcba8c25a503038def4af9e47afba217d9560c10b3ddc0b8546629e",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/4513.tar.gz",
+      "split": "train"
+    },
+    {
+      "path": "4514.tar.gz",
+      "bytes": 313513747,
+      "sha256": "7de1707836d366b3bf5ae135cf956158982ca6eebadf500104a8dc45d5d847c9",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/4514.tar.gz",
+      "split": "train"
+    },
+    {
+      "path": "4539.tar.gz",
+      "bytes": 322038556,
+      "sha256": "9d82b6f9c539935ed11fb618e52af903217f7e72ea3f3d2472356ad7d2cebcf5",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/4539.tar.gz",
+      "split": "train"
+    },
+    {
+      "path": "4541.tar.gz",
+      "bytes": 316341253,
+      "sha256": "6d448bca63cec404d6049a00f4acaee2589455d3a484831037081a462768445e",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/4541.tar.gz",
+      "split": "train"
+    },
+    {
+      "path": "4570.tar.gz",
+      "bytes": 357446832,
+      "sha256": "ca0d55b24b60ef6f82b6ffaf8b7575529e4800e84822776c08dbf9670ad4a343",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/4570.tar.gz",
+      "split": "val"
+    },
+    {
+      "path": "4574.tar.gz",
+      "bytes": 286001562,
+      "sha256": "697685bb71cf6911bc0770ae788880fcbfc380d1d78231139992ddab8f82f8cb",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/4574.tar.gz",
+      "split": "train"
+    },
+    {
+      "path": "4589.tar.gz",
+      "bytes": 322941204,
+      "sha256": "a5434fdc7d1286809440896dd86c846c593cba50f2b36fb39dbaea3433141868",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/4589.tar.gz",
+      "split": "train"
+    },
+    {
+      "path": "4913.tar.gz",
+      "bytes": 319427393,
+      "sha256": "aa1ef3f709bd2a67a032ed874a33ed5aa009171cfd4dbd7c2190b25be4db669d",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/4913.tar.gz",
+      "split": "train"
+    },
+    {
+      "path": "4956.tar.gz",
+      "bytes": 239316310,
+      "sha256": "b913d5d8426de014044e3ec91571d0c65b9358155c69bcc36f0d4e662129f431",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/4956.tar.gz",
+      "split": "val"
+    },
+    {
+      "path": "5019.tar.gz",
+      "bytes": 333604535,
+      "sha256": "07a301f6d6f63836d42f7c901a4401ce64d118bf4f4eebcf61ec7f744147f4b8",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/5019.tar.gz",
+      "split": "train"
+    },
+    {
+      "path": "5131.tar.gz",
+      "bytes": 342896676,
+      "sha256": "0e5014b4d932b31d5835a2843db2035e4effdc311fe6137c6342ffc58e562d10",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/5131.tar.gz",
+      "split": "train"
+    },
+    {
+      "path": "5158.tar.gz",
+      "bytes": 356641686,
+      "sha256": "b7f27db33beee46361e31c7570c99c0260ecc7b8d87f3eb15307487d541e8ab3",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/5158.tar.gz",
+      "split": "val"
+    },
+    {
+      "path": "5450.tar.gz",
+      "bytes": 298168068,
+      "sha256": "c13b81805b9290021eecda3a597946615e828aa7f13ee16d451c625ff6344631",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/5450.tar.gz",
+      "split": "train"
+    },
+    {
+      "path": "5455.tar.gz",
+      "bytes": 338589140,
+      "sha256": "5e2fd95961b32a0e2081f21c83fd064fb4a4bb26c09ae81f7de8c618cd903879",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/5455.tar.gz",
+      "split": "train"
+    },
+    {
+      "path": "5478.tar.gz",
+      "bytes": 309600075,
+      "sha256": "450b16c2e73469721c067dd66fb55d6ee013023cfc2e640663c5c8e02924cf05",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/5478.tar.gz",
+      "split": "train"
+    },
+    {
+      "path": "5487.tar.gz",
+      "bytes": 357893971,
+      "sha256": "d8302eb893b6654cf47ab694fb0f580ea60052e90374db3c3759b587cab2d4fb",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/5487.tar.gz",
+      "split": "train"
+    },
+    {
+      "path": "5636.tar.gz",
+      "bytes": 325202269,
+      "sha256": "0c224607a236cce6b8e978a03be837f617d86f4afec5f846357269ed3efaeb87",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/5636.tar.gz",
+      "split": "train"
+    },
+    {
+      "path": "5699.tar.gz",
+      "bytes": 342610288,
+      "sha256": "417b60fe9348f924f9bf817b875d8e96775c9bdb02e37fa2d2156620bae3bf93",
+      "url": "https://huggingface.co/datasets/facebook/CoTracker3_Kubric/resolve/a23b6e6e332595c9d92944680a10415e93bfd1e1/5699.tar.gz",
+      "split": "train"
+    }
+  ],
+  "source_inventory_sha256": "4e89789298294b859d4ecdef1de381703a4fe1be3d138a36a0923ee77a1ae34d",
+  "preserved_selection_sha256": {
+    "configs/kubric.small.lock.json": "095a141ed2ded01e8c609bda487ab7b743c8f2af17f4f6d715cc12ad3783c365",
+    "configs/kubric.additional-val.lock.json": "af5a3f56f98ab0f142748c43ce9279b4beca4d5fd9a5194c9400a229188730cb"
+  }
+}

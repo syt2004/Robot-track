@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "track_on": {"repository": "gorkaydemir/track_on", "commit": "04efe8a137bd76e45e07382f02748794c9b61a96"},
+    "track4world": {"repository": "TencentARC/Track4World", "commit": "fbd59ffadf2de9fccba5ea017e13af239075fbe9"},
+    "utils3d": {"repository": "jiah-cloud/utils3d", "commit": "2072c024c73f7c0f83e0da23eef5f2d9ac575249"},
+    "pi3": {"repository": "yyfz/Pi3", "commit": "9fa3ddb3f8d53041f8b2738df404f62223bbaa7b"}
+  },
+  "downloads": {
+    "dinov2_small": {
+      "url": "https://huggingface.co/facebook/dinov2-small/resolve/ed25f3a31f01632728cabb09d1542f84ab7b0056/model.safetensors",
+      "sha256": "ae1e99fcefd534ed978cdeb8326f08030c96e28b7a81ffcbc98a857c84d14be1",
+      "bytes": 88249960,
+      "path": "weights/dinov2-small/model.safetensors"
+    },
+    "dinov2_config": {
+      "url": "https://huggingface.co/facebook/dinov2-small/resolve/ed25f3a31f01632728cabb09d1542f84ab7b0056/config.json",
+      "git_blob_sha1": "5664b325e6258d3960fad8c4c1cff958f3cc2272",
+      "bytes": 547,
+      "path": "weights/dinov2-small/config.json"
+    },
+    "verifier": {
+      "url": "https://huggingface.co/gorkaydemir/track_on_r/resolve/main/verifier.pt",
+      "sha256": "96de11d84f62bd6b874469b1d5fe51a154f1bb73af3550d86dcba3760ede11b3",
+      "bytes": 45382578,
+      "path": "weights/trackon_r/verifier.pt"
+    },
+    "track4world_da3": {
+      "url": "https://huggingface.co/TencentARC/Track4World/resolve/main/track4world_da3.pth",
+      "sha256": "6c589c0f41632a2329920087dcd8cbd6465d4198d574f0d4186eeada78c492c7",
+      "bytes": 5527438950,
+      "path": "weights/track4world/track4world_da3.pth"
+    },
+    "da3_nested": {
+      "url": "https://huggingface.co/depth-anything/DA3NESTED-GIANT-LARGE-1.1/resolve/main/model.safetensors",
+      "sha256": "8ebe871a022ed58d2fc8fdfb2ebdb31d57b60fe39611c849095851a7b7c6020c",
+      "bytes": 6759558100,
+      "path": "weights/da3nested/model.safetensors"
+    },
+    "da3_config": {
+      "url": "https://huggingface.co/depth-anything/DA3NESTED-GIANT-LARGE-1.1/resolve/main/config.json",
+      "git_blob_sha1": "0c9ba5b7641a989502f845180f03b09c632f8f09",
+      "bytes": 3113,
+      "path": "weights/da3nested/config.json"
+    },
+    "mmcv_trackon": {
+      "url": "https://download.openmmlab.com/mmcv/dist/cu121/torch2.4.0/mmcv-2.2.0-cp312-cp312-manylinux1_x86_64.whl",
+      "md5": "ac436c913e5b69d1114aa35fbfb4d0da",
+      "sha256": "0c5fa8f302f99f6b64f11c767ceb504def84ef44849fc83378a99906463ac68e",
+      "bytes": 98687820,
+      "path": ".wheelhouse/mmcv-2.2.0-cp312-cp312-manylinux1_x86_64.whl",
+      "integrity_source": "official HTTPS Content-MD5 verified; local SHA256 recorded after full download and ZIP CRC validation"
+    },
+    "trackon2_dinov2": {
+      "url": "https://huggingface.co/gorkaydemir/track_on2/resolve/main/trackon2_dinov2_checkpoint.pt?download=true",
+      "sha256": "34c35ea64ea68f3c633c901c2d7876964c34212455dfbb2d508aaea1c4978973",
+      "bytes": 93900427,
+      "path": "weights/trackon2_dinov2/trackon2_dinov2_checkpoint.pt",
+      "role": "temporary tracker authorized by user; not Track-On-R"
+    },
+    "python312": {
+      "url": "https://releases.astral.sh/github/python-build-standalone/releases/download/20261026/cpython-3.12.16%2B20261026-x86_64-unknown-linux-gnu-install_only_stripped.tar.gz",
+      "sha256": "ce4f6d0a6cfdb3bed6e44c2f9affd85943c76a42e25ad3a259002f31d6fb8a20",
+      "bytes": 34505639,
+      "path": ".bootstrap/cpython-3.12.16.tar.gz"
+    },
+    "python311": {
+      "url": "https://releases.astral.sh/github/python-build-standalone/releases/download/20261026/cpython-3.11.18%2B20261026-x86_64-unknown-linux-gnu-install_only_stripped.tar.gz",
+      "sha256": "17c4978a36c496dc53c08899ef8dad1ad2734f6325f08d6033a1e66419e0af26",
+      "bytes": 30574046,
+      "path": ".bootstrap/cpython-3.11.18.tar.gz"
+    }
+  },
+  "dataset_lock": "datasets.lock.json",
+  "not_yet_locked": ["DINOv3 backbone", "Track-On-R weights"]
+}

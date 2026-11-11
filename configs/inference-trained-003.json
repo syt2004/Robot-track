@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "purpose": "inference",
+  "baseline_provenance": {
+    "track_on": {
+      "commit": "04efe8a137bd76e45e07382f02748794c9b61a96",
+      "weights_sha256": "34c35ea64ea68f3c633c901c2d7876964c34212455dfbb2d508aaea1c4978973",
+      "variant": "trackon2_dinov2",
+      "backbone": "dinov2_s",
+      "backbone_weights_sha256": "ae1e99fcefd534ed978cdeb8326f08030c96e28b7a81ffcbc98a857c84d14be1",
+      "config_sha256": "0e3f81c1c813ce1f192db771d6d42a93caa874904b073961e14e1ad5b43762e1"
+    },
+    "verifier": {
+      "commit": "04efe8a137bd76e45e07382f02748794c9b61a96",
+      "weights_sha256": "96de11d84f62bd6b874469b1d5fe51a154f1bb73af3550d86dcba3760ede11b3"
+    },
+    "track4world": {
+      "commit": "fbd59ffadf2de9fccba5ea017e13af239075fbe9",
+      "weights_sha256": "6c589c0f41632a2329920087dcd8cbd6465d4198d574f0d4186eeada78c492c7",
+      "backbone_weights_sha256": "3418f0755ba1be48b42896ca85b037219af0d356e791f1bdd5d187c7ae73dd93",
+      "backbone_config_sha256": "09adf89474017e717bc05aa86fd3a378708ba8914b036d61874eced328069468",
+      "metric_subset_manifest_sha256": "8b78bceeac8d1b8e1bc566d718096aeea91c733442221d9b73d1c11232ce4bc8",
+      "original_da3_source_sha256": "8ebe871a022ed58d2fc8fdfb2ebdb31d57b60fe39611c849095851a7b7c6020c"
+    }
+  },
+  "device": "cuda:0",
+  "geometry_physical_gpu": "1",
+  "asset_lock_sha256": "a30ddd8e4c0bff6a17b4c1ce2b5e12d3eeb06fef79991cc6b3ee0c0d6ab3d0bd",
+  "trackon_root": "/villa/yhl24-srt/sytproject/tracking/third_party/track_on",
+  "trackon_checkpoint": "/villa/yhl24-srt/sytproject/tracking/weights/trackon2_dinov2/trackon2_dinov2_checkpoint.pt",
+  "backbone_directory": "/villa/yhl24-srt/sytproject/tracking/weights/dinov2-small",
+  "verifier_checkpoint": "/villa/yhl24-srt/sytproject/tracking/weights/trackon_r/verifier.pt",
+  "geometry_python": "/villa/yhl24-srt/sytproject/tracking/.envs/track4world311/bin/python",
+  "geometry_root": "/villa/yhl24-srt/sytproject/tracking/third_party/track4world",
+  "geometry_checkpoint": "/villa/yhl24-srt/sytproject/tracking/weights/track4world/track4world_da3.pth",
+  "geometry_backbone_directory": "/villa/yhl24-srt/sytproject/tracking/weights/da3nested-metric",
+  "ipc_root": "/villa/yhl24-srt/sytproject/tracking/runs/ipc",
+  "pipeline": {
+    "geometry_window": 8,
+    "geometry_stride": 4,
+    "verifier_window": 24,
+    "tau_seconds": 10.0,
+    "max_geometry_age": 60.0
+  },
+  "timing_protocol": {
+    "mode": "offline capture-paced replay with measured processing backlog",
+    "probe": "runs/geometry-ready-robot-probe-002/probe/status.json",
+    "geometry_window_seconds_observed": 1.613139990993659,
+    "age_selection": "60 s budget accommodates previously measured 20-25 s frontend backlog; not a realtime setting",
+    "tau_selection": "10 s initial unoptimized decay; report actual geometry ages and weights",
+    "capture_timestamps": "preserved from prepared manifest; no resampling"
+  },
+  "candidate_protocol": {
+    "constant_velocity": "requires both previous fused visibility probabilities >= 0.5; reset after hidden history",
+    "implementation_sha256": "86f437cdb20685408f422c9db20d18ccf03374c14bf14eb65b0eac766bf5134e"
+  },
+  "geometry_probability_roundoff": {
+    "tolerance": 1e-12,
+    "implementation_sha256": "1fe75a90f88f1d1a94edc9087a29c873352b968578c5dacdfc98ada617b92a34"
+  },
+  "calibrator_checkpoint": "/villa/yhl24-srt/sytproject/tracking/runs/training-calibrator-003/calibrator.pt",
+  "calibrator_sha256": "26a8b30f1f787e6e7ae64493b6405dc4e2b5ed8901d835922f99ef926026da58",
+  "promoted_from_config_sha256": "5507db1b2a059aaa5d6cbafcae3d62f6e41c0c0f798bfd0c50867be4d109dbcf"
+}
